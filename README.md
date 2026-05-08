@@ -1,6 +1,6 @@
-## EasyLevel_Tasks
+# EasyLevel_Tasks
 
-# Basic_WebPage 🌐
+## Basic_WebPage 🌐
 
 This is a simple personal web page created using HTML.
 The webpage introduces me, displays an image, and includes a link to my favorite website.
@@ -39,7 +39,7 @@ It demonstrates how to structure a webpage with headings, paragraphs, images, an
 * Nature/business image
 * Link to Wikipedia
 
-# Contact_Form 📬
+## Contact_Form 📬
 
 This is a simple and responsive Contact Form web application built using HTML and CSS.
 The project allows users to enter their name, email, and message through a clean user interface and displays a thank you page after submission.
@@ -96,7 +96,7 @@ This README provides a clear overview of your project, highlighting its purpose 
 
 ---
 
-# Navigation_Menu
+## Navigation_Menu
 
 **BrightPath Learning** is a multi-page demo website built to practice fundamental web development skills, specifically focusing on HTML structure, CSS styling, and site navigation.
 
@@ -130,9 +130,9 @@ This project serves as a functional template for a fictional training center. It
 3. Use the navigation links at the top to explore the different sections of the site.
 
 
-## MediumLevel_Tasks
+# MediumLevel_Tasks
 
-# Responsive_Webpage
+## Responsive_Webpage
 
 A clean, modern, and fully responsive single-page landing site designed to showcase flexible layouts. This project demonstrates how to use **CSS Media Queries** and **Modern CSS Layouts** (Grid and Flexbox) to ensure a seamless user experience across desktops, tablets, and mobile phones.
 
