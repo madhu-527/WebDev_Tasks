@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="logo" href="#home">John Doe</a>
+      <button id="menuToggle" class="menu-toggle" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="siteNav" class="site-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero section">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Web Developer</p>
+          <h1>Building fast, modern, and user-friendly websites.</h1>
+          <p class="hero-text">
+            I am a passionate developer focused on crafting responsive web experiences with clean code and thoughtful design.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">View Projects</a>
+            <a class="btn btn-secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-card">
+          <h3>Quick Highlights</h3>
+          <ul>
+            <li>Responsive Frontend Development</li>
+            <li>JavaScript and UI Interactions</li>
+            <li>Performance and Accessibility Focus</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I am a dedicated web developer with a strong interest in creating polished digital products. I enjoy turning ideas
+          into practical, user-centered solutions and continuously improving my skills in frontend and full-stack development.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt-bg">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Frontend</h3>
+            <p>HTML5, CSS3, JavaScript (ES6+), Responsive Design</p>
+          </article>
+          <article class="skill-card">
+            <h3>Tools</h3>
+            <p>Git, GitHub, VS Code, Chrome DevTools</p>
+          </article>
+          <article class="skill-card">
+            <h3>Frameworks</h3>
+            <p>React Basics, Bootstrap, Tailwind CSS</p>
+          </article>
+          <article class="skill-card">
+            <h3>Backend Basics</h3>
+            <p>Node.js, Express Fundamentals, REST APIs</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A personal responsive portfolio built with semantic HTML, modern CSS, and JavaScript interactions.</p>
+            <a href="#" aria-label="Open Portfolio Website project link">Live Demo</a>
+          </article>
+          <article class="project-card">
+            <h3>Task Manager App</h3>
+            <p>A productivity app to organize daily tasks with filter, status tracking, and local storage support.</p>
+            <a href="#" aria-label="Open Task Manager project link">Live Demo</a>
+          </article>
+          <article class="project-card">
+            <h3>Weather Dashboard</h3>
+            <p>A weather app using an external API to display current conditions and forecasts for selected cities.</p>
+            <a href="#" aria-label="Open Weather Dashboard project link">Live Demo</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt-bg">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Have a project in mind? Send me a message.</p>
+        <form id="contactForm" class="contact-form" novalidate>
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required>
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required>
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button class="btn btn-primary" type="submit">Send Message</button>
+          <p id="formStatus" class="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="currentYear"></span> John Doe. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
