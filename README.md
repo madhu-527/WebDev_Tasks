@@ -1,3 +1,5 @@
+## EasyLevel_Tasks
+
 # Basic_WebPage 🌐
 
 This is a simple personal web page created using HTML.
@@ -126,3 +128,66 @@ This project serves as a functional template for a fictional training center. It
 1. Clone or download the repository.
 2. Open `index.html` in any modern web browser.
 3. Use the navigation links at the top to explore the different sections of the site.
+
+
+## MediumLevel_Tasks
+
+# Responsive_Webpage
+
+A clean, modern, and fully responsive single-page landing site designed to showcase flexible layouts. This project demonstrates how to use **CSS Media Queries** and **Modern CSS Layouts** (Grid and Flexbox) to ensure a seamless user experience across desktops, tablets, and mobile phones.
+
+## ✨ Key Features
+
+* **Fluid Layout:** Uses a container that adapts to the screen width, ensuring content never hits the edge of the viewport.
+* **CSS Grid Implementation:** Features a two-column layout on larger screens that automatically stacks into a single column on mobile devices.
+* **Flexbox Navigation:** A responsive header where navigation links adjust their orientation based on screen size.
+* **CSS Variables:** Uses `:root` variables for consistent branding, making it easy to update colors and themes globally.
+* **Mobile-First Considerations:** Includes specific breakpoints at **768px** and **480px** to fine-tune font sizes and spacing for handheld devices.
+
+## 📂 Project Files
+
+* `index.html`: The semantic structure of the site, featuring a hero section and grid-based content blocks.
+* `styles.css`: The complete styling logic, including layout rules and responsive media queries.
+
+## 🛠️ Technical Breakdown
+
+* **Layouts:** Powered by **CSS Grid** (`grid-template-columns`) and **Flexbox** (`display: flex`).
+* **Responsiveness:** Managed via `@media` rules to handle device-specific adjustments.
+* **Styling:** Custom UI components like cards with soft shadows and rounded corners for a modern look.
+
+## 🚀 How to View
+
+1. Download or clone the project files.
+2. Open `index.html` in any web browser.
+3. **To test responsiveness:** Right-click and select **Inspect**, then toggle the "Device Toolbar" or simply resize your browser window to see the layout adapt in real-time.
+
+
+## FormValidation_JS
+
+## ✨ Key Features
+
+* **Custom Validation Logic:** Manual checks for required fields and specific data formats (like email patterns) without relying solely on default browser behavior.
+* **Real-Time Feedback:** Uses JavaScript to toggle CSS classes and display error messages dynamically when a field is left blank or filled incorrectly.
+* **Email Regex Verification:** Implements a Regular Expression (`emailPattern`) to ensure the user provides a valid email format.
+* **Form Reset & Success States:** Upon successful validation, the form triggers a success alert, displays a confirmation message on the page, and resets all input fields.
+* **Clean UI/UX:** A minimalist, card-based design with focused input states and clear typography.
+
+## 📂 Project Structure
+
+* `index.html`: Contains the form structure with `novalidate` to allow custom JavaScript validation to take control.
+* `style.css`: Defines the visual presentation, including specific styles for `.error` states (red borders) and `.success-message`.
+* `script.js`: The engine of the project; handles event listeners, string trimming, and error clearing/setting logic.
+
+## 🛠️ Technical Breakdown
+
+* **HTML5 & CSS3:** Semantic markup and modern box-shadow/border-radius styling.
+* **Vanilla JavaScript:** * `preventDefault()`: Stops the page from refreshing on form submission.
+* `trim()`: Sanitizes inputs by removing leading and trailing whitespace.
+* `classList.add/remove`: Dynamically updates the UI based on validation results.
+
+## 🚀 How to Use
+
+1. Download the project files.
+2. Open `index.html` in your browser.
+3. Attempt to click **"Send Message"** with empty fields to see the validation in action.
+4. Enter a valid name, email address, and message to see the success state.
